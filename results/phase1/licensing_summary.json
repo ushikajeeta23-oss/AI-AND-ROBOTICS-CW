@@ -1,0 +1,172 @@
+{
+  "n_images": 1981,
+  "n_source_rows": 1985,
+  "missing_creator": 116,
+  "missing_license": 0,
+  "missing_license_url": 350,
+  "unreviewed": 1981,
+  "license_families": {
+    "CC BY-SA": 1098,
+    "public domain / CC0": 532,
+    "CC BY": 324,
+    "GPL": 14,
+    "other": 10,
+    "GFDL": 3
+  },
+  "verification_status": {
+    "verified": 1865,
+    "API artist missing": 116
+  },
+  "api_checked": true,
+  "per_class": {
+    "bin": {
+      "n": 200,
+      "missing_creator": 1,
+      "missing_license": 0,
+      "missing_license_url": 4,
+      "unreviewed": 200,
+      "api_verified": 199,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 169,
+        "CC BY": 18,
+        "public domain / CC0": 13
+      }
+    },
+    "book": {
+      "n": 200,
+      "missing_creator": 17,
+      "missing_license": 0,
+      "missing_license_url": 110,
+      "unreviewed": 200,
+      "api_verified": 183,
+      "api_not_found": 0,
+      "licenses": {
+        "public domain / CC0": 125,
+        "CC BY-SA": 55,
+        "CC BY": 20
+      }
+    },
+    "bottle": {
+      "n": 200,
+      "missing_creator": 8,
+      "missing_license": 0,
+      "missing_license_url": 8,
+      "unreviewed": 200,
+      "api_verified": 192,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 117,
+        "CC BY": 45,
+        "public domain / CC0": 37,
+        "GFDL": 1
+      }
+    },
+    "chair": {
+      "n": 200,
+      "missing_creator": 56,
+      "missing_license": 0,
+      "missing_license_url": 89,
+      "unreviewed": 200,
+      "api_verified": 144,
+      "api_not_found": 0,
+      "licenses": {
+        "public domain / CC0": 115,
+        "CC BY-SA": 58,
+        "CC BY": 26,
+        "other": 1
+      }
+    },
+    "keyboard": {
+      "n": 200,
+      "missing_creator": 1,
+      "missing_license": 0,
+      "missing_license_url": 14,
+      "unreviewed": 200,
+      "api_verified": 199,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 153,
+        "public domain / CC0": 24,
+        "CC BY": 17,
+        "other": 6
+      }
+    },
+    "mouse": {
+      "n": 196,
+      "missing_creator": 3,
+      "missing_license": 0,
+      "missing_license_url": 11,
+      "unreviewed": 196,
+      "api_verified": 193,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 143,
+        "CC BY": 26,
+        "public domain / CC0": 23,
+        "GFDL": 2,
+        "other": 1,
+        "GPL": 1
+      }
+    },
+    "mug": {
+      "n": 200,
+      "missing_creator": 2,
+      "missing_license": 0,
+      "missing_license_url": 13,
+      "unreviewed": 200,
+      "api_verified": 198,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 125,
+        "CC BY": 40,
+        "public domain / CC0": 34,
+        "other": 1
+      }
+    },
+    "notebook": {
+      "n": 200,
+      "missing_creator": 27,
+      "missing_license": 0,
+      "missing_license_url": 72,
+      "unreviewed": 200,
+      "api_verified": 173,
+      "api_not_found": 0,
+      "licenses": {
+        "public domain / CC0": 86,
+        "CC BY-SA": 59,
+        "CC BY": 42,
+        "GPL": 13
+      }
+    },
+    "phone": {
+      "n": 200,
+      "missing_creator": 1,
+      "missing_license": 0,
+      "missing_license_url": 9,
+      "unreviewed": 200,
+      "api_verified": 199,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 117,
+        "CC BY": 43,
+        "public domain / CC0": 39,
+        "other": 1
+      }
+    },
+    "stapler": {
+      "n": 185,
+      "missing_creator": 0,
+      "missing_license": 0,
+      "missing_license_url": 20,
+      "unreviewed": 185,
+      "api_verified": 185,
+      "api_not_found": 0,
+      "licenses": {
+        "CC BY-SA": 102,
+        "CC BY": 47,
+        "public domain / CC0": 36
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "verified_equal": [
+    "split",
+    "n_images",
+    "model",
+    "review_threshold",
+    "review_count",
+    "review_rate",
+    "accepted_accuracy",
+    "target_test_accuracy",
+    "target_met",
+    "target_accuracy_and_macro_f1",
+    "target_met_on_this_split",
+    "confidence_min",
+    "confidence_mean",
+    "confidence_max",
+    "accuracy",
+    "macro_f1",
+    "class_order",
+    "confusion_matrix",
+    "per_class"
+  ],
+  "independent_final_test": "pending"
+}

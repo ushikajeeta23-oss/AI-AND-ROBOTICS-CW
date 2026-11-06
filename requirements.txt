@@ -1,0 +1,9 @@
+# Tested Python 3.11 environment; CPU baseline does not download pretrained weights.
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+Pillow>=10,<13
+scikit-image>=0.22,<1
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+joblib>=1.3,<2
+pytest>=8,<10

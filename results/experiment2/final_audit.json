@@ -1,0 +1,12 @@
+{
+  "original_model_and_historical_result_hashes_match_snapshot": true,
+  "experiment2_export_matches_best_checkpoint": true,
+  "retained": 1416,
+  "train": 1132,
+  "validation": 284,
+  "manual_label_decisions_missing": 246,
+  "manual_duplicate_pair_decisions_missing": 36,
+  "independent_final_test": "pending",
+  "test_summary": "================= 25 passed, 1 warning in 1033.79s (0:17:13) ==================",
+  "validation_metrics_reproduced": true
+}

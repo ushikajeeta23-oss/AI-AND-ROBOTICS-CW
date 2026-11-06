@@ -1,0 +1,11 @@
+class,retained,train,val,excluded_incorrect,held_out_uncertain,held_out_unreviewed_label
+bin,153,122,31,0,0,16
+book,147,117,30,0,0,25
+bottle,116,93,23,3,0,58
+chair,163,130,33,0,0,7
+keyboard,134,108,26,0,0,41
+mouse,144,115,29,3,0,20
+mug,145,116,29,0,0,25
+notebook,145,116,29,17,0,12
+phone,126,100,26,13,4,34
+stapler,143,115,28,6,0,8

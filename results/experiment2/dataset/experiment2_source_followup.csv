@@ -1,0 +1,14 @@
+path,class,status,issue
+train\bin\bin-commons-113882-678cc6586474__00-f5a2bd24.jpg,bin,retained_unflagged,missing artist and credit
+train\book\book-commons-372996-c3c0f8190091__00-e57afec2.jpg,book,retained_unflagged,missing artist and credit
+test\book\book-commons-237774-948d4ed0cf83__00-e41f3820.jpg,book,held_out_unreviewed_label,missing artist and credit
+test\book\book-commons-789106-5c430b305a49__00-62e6e72c.jpg,book,held_out_original_test,missing artist and credit
+train\bottle\bottle-commons-900669-212c06d619fe__00-a5b17514.jpg,bottle,held_out_unreviewed_label,missing artist and credit
+train\bottle\bottle-commons-519160-e80aa741d3c5__00-928f4d30.jpg,bottle,retained_unflagged,missing artist and credit
+train\chair\chair-commons-61844498-577dffbdcb6c__00-342d0740.jpg,chair,retained_unflagged,attribution licence has no URL
+train\keyboard\keyboard-commons-1431504-6e007904afa3__00-148960ac.jpg,keyboard,retained_unflagged,missing artist and credit
+train\mouse\mouse-commons-15794-2d7d446c2df9__00-ee723f66.jpg,mouse,retained_unflagged,missing artist and credit
+train\mouse\mouse-commons-230090-e18d8c89e8dd__00-753e539d.png,mouse,held_out_unreviewed_label,missing artist and credit; attribution licence has no URL
+test\mouse\mouse-commons-178528-1266742c53c2__00-0e7068f2.jpg,mouse,held_out_original_test,missing artist and credit
+val\mug\mug-commons-61638708-207e51ce0805__00-8581530e.jpg,mug,retained_unflagged,attribution licence has no URL
+train\phone\phone-commons-136081-209939369854__00-5fd9372a.jpg,phone,retained_unflagged,missing artist and credit

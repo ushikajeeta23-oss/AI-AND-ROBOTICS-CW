@@ -1,0 +1,19 @@
+{
+  "phash_threshold": 6,
+  "dhash_threshold": 2,
+  "n_images": 1981,
+  "n_clusters": 23,
+  "n_images_in_clusters": 82,
+  "n_cross_split_clusters": 10,
+  "n_images_in_cross_split_clusters": 50,
+  "cross_split_clusters_by_class": {
+    "book": 1,
+    "keyboard": 4,
+    "mouse": 1,
+    "mug": 1,
+    "notebook": 1,
+    "phone": 2
+  },
+  "n_cross_class_clusters": 0,
+  "largest_cluster": 20
+}

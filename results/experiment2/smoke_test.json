@@ -1,0 +1,94 @@
+{
+  "purpose": "Operational smoke test on existing photos, no performance benchmark.",
+  "streamlit_health": 200,
+  "models": {
+    "Experiment 1": "391c2f98a8feed6635ca3e31dd3a31aa3b936cc4ba547b90e2eb6735a46912ee",
+    "Experiment 2": "d931ed6611c5d7b2c5d1e7fac6130f67dedb04b68850f2eec1fecb4856e1271d"
+  },
+  "examples": [
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/book/book-commons-10356946-46d964fe9ab8__00-4685d9a4.jpg",
+      "prediction": "book",
+      "confidence": 0.8594907522201538,
+      "policy": "REPORT_ONLY"
+    },
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/bottle/bottle-commons-104014645-73df8824a80a__00-3a6cc684.jpg",
+      "prediction": "bottle",
+      "confidence": 0.8959549069404602,
+      "policy": "CHECK_BEFORE_LIFT"
+    },
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/mouse/mouse-commons-105203324-8043a39cdb84__00-ea5d39c7.jpg",
+      "prediction": "mouse",
+      "confidence": 0.9773837327957153,
+      "policy": "CHECK_BEFORE_LIFT"
+    },
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/notebook/notebook-commons-105618311-e1d5b4e4ff82__00-ed945e99.jpg",
+      "prediction": "notebook",
+      "confidence": 0.996933102607727,
+      "policy": "REPORT_ONLY"
+    },
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/phone/phone-commons-119344307-1b0ae29dafb0__00-ee6074c0.jpg",
+      "prediction": "phone",
+      "confidence": 0.9995311498641968,
+      "policy": "REPORT_ONLY"
+    },
+    {
+      "model": "Experiment 1",
+      "file": "data/experiment2/val/stapler/stapler-commons-114076545-6a7e209a6f51__00-f2293c32.jpg",
+      "prediction": "stapler",
+      "confidence": 0.7893517017364502,
+      "policy": "REVIEW"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/book/book-commons-10356946-46d964fe9ab8__00-4685d9a4.jpg",
+      "prediction": "notebook",
+      "confidence": 0.45123663544654846,
+      "policy": "REVIEW"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/bottle/bottle-commons-104014645-73df8824a80a__00-3a6cc684.jpg",
+      "prediction": "bottle",
+      "confidence": 0.5697611570358276,
+      "policy": "REVIEW"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/mouse/mouse-commons-105203324-8043a39cdb84__00-ea5d39c7.jpg",
+      "prediction": "mouse",
+      "confidence": 0.9998551607131958,
+      "policy": "CHECK_BEFORE_LIFT"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/notebook/notebook-commons-105618311-e1d5b4e4ff82__00-ed945e99.jpg",
+      "prediction": "notebook",
+      "confidence": 0.9993886947631836,
+      "policy": "REPORT_ONLY"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/phone/phone-commons-119344307-1b0ae29dafb0__00-ee6074c0.jpg",
+      "prediction": "phone",
+      "confidence": 0.9942359328269958,
+      "policy": "REPORT_ONLY"
+    },
+    {
+      "model": "Experiment 2",
+      "file": "data/experiment2/val/stapler/stapler-commons-114076545-6a7e209a6f51__00-f2293c32.jpg",
+      "prediction": "stapler",
+      "confidence": 0.9942756295204163,
+      "policy": "CHECK_BEFORE_LIFT"
+    }
+  ]
+}

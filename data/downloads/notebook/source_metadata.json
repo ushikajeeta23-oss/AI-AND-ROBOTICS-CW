@@ -1,0 +1,9 @@
+{
+  "url": "https://commons.wikimedia.org/",
+  "license": "Per-image licenses differ. See commons_sources.csv",
+  "author": "Individual Commons photographers; see commons_sources.csv",
+  "aliases": [
+    "notebook"
+  ],
+  "project": "wikimedia_commons_photographs"
+}

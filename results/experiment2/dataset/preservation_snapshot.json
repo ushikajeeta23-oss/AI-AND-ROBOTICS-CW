@@ -1,0 +1,8 @@
+{
+  "models/officemate_yolov8n_cls.pt": "391c2f98a8feed6635ca3e31dd3a31aa3b936cc4ba547b90e2eb6735a46912ee",
+  "results/REAL_YOLOV8N_TEST/classification_report.txt": "c99b36a32d8346162949af0a224e07973127a9c9368dcdbbf4d692e19292c262",
+  "results/REAL_YOLOV8N_TEST/confusion_matrix.png": "e85cff29482ac21af06172114713d805a884b0f2df741a9d1a22d4f0b7e578b1",
+  "results/REAL_YOLOV8N_TEST/error_analysis.md": "10e3be6627992020e20e2151240a6993ea0ad487b4c62dd1859d414335c08574",
+  "results/REAL_YOLOV8N_TEST/metrics.json": "3ddab1b0d09ccef0c79472d5291ceae55af9444cbbd7eb36d404cc2b24cf02a0",
+  "results/REAL_YOLOV8N_TEST/predictions.csv": "fbc45399a55583723685ad8e77975f13cb84247c91787c743956f5e08b29b45e"
+}

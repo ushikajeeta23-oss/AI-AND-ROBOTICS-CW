@@ -1,0 +1,46 @@
+# Experiment 2 — YOLOv8n-cls configuration
+#
+# Classification training applies crop, color jitter and erasing directly.
+# The submitted run recorded augment=true in args.yaml. The final validator
+# reported single-scale fallback, so the generic inference flag is omitted here.
+#
+# CPU transfer learning on the audited development split.
+
+model: yolov8n-cls.pt
+data: data/experiment2
+
+epochs: 12
+patience: 4
+batch: 32
+imgsz: 160
+device: cpu
+workers: 0
+cache: false
+
+pretrained: true
+freeze: 5
+optimizer: AdamW
+lr0: 0.001
+lrf: 0.01
+weight_decay: 0.001
+warmup_epochs: 1
+cos_lr: true
+dropout: 0.2
+
+hsv_h: 0.015
+hsv_s: 0.25
+hsv_v: 0.2
+flipud: 0.0
+fliplr: 0.0
+scale: 0.15
+erasing: 0.1
+auto_augment: null
+
+amp: false
+seed: 42
+deterministic: true
+plots: true
+
+project: runs/experiment2
+name: yolov8n_cls_exp2
+exist_ok: false

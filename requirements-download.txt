@@ -1,0 +1,4 @@
+-r requirements-sources.txt
+# On Windows, use Python 3.11 for the broadest package compatibility.
+fiftyone>=1.4,<2
+requests>=2.31,<3

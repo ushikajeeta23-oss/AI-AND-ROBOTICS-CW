@@ -1,0 +1,2773 @@
+{
+  "generated_at": "2026-11-05T20:49:57+00:00",
+  "total": 1981,
+  "status_counts": {
+    "held_out_unreviewed_label": 246,
+    "retained_unflagged": 1416,
+    "held_out_invalid": 6,
+    "held_out_original_test": 264,
+    "excluded_incorrect": 42,
+    "held_out_second_review": 3,
+    "held_out_uncertain": 4
+  },
+  "quarantined": 523,
+  "excluded": 42,
+  "duplicate_edges": [
+    {
+      "first": "train\\book\\book-commons-295698-829db3240627__00-38db98aa.jpg",
+      "second": "train\\book\\book-commons-8741156-36349823aa40__00-bd7e69fd.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\book\\book-commons-42174873-df503ce94a45__00-ee558dee.jpg",
+      "second": "train\\book\\book-commons-42174891-dfd053f508f4__00-9df9ffa1.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\book\\book-commons-65361683-08ba0d450376__00-9622da40.jpg",
+      "second": "train\\book\\book-commons-65361698-4b9fab299532__00-f7395361.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\book\\book-commons-7442183-0fc77941377f__00-fab10459.png",
+      "second": "test\\book\\book-commons-237774-948d4ed0cf83__00-e41f3820.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "test\\book\\book-commons-101288373-abfff980cf57__00-1ab8e50c.png",
+      "second": "test\\book\\book-commons-14229997-ce004bed0e4b__00-0e99b11a.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186854-56a96231db85__00-25be6acd.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824718-d8368ae6ca75__00-e7166085.png",
+      "second": "train\\keyboard\\keyboard-commons-97824719-ea00a7b69785__00-e3eb9291.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106187482-a788dbfaa178__00-f25ccf03.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824782-22db1c299d17__00-4a2c02e5.png",
+      "second": "train\\keyboard\\keyboard-commons-97824720-136018d52fb1__00-fe45194c.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106187589-cdbca364db73__00-72c838e8.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186741-c718e4022bb8__00-8bb589f5.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186616-cd965fc25aa0__00-76d8c3d0.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "train\\keyboard\\keyboard-commons-149796056-aaf112bd0a0c__00-d66c858a.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824716-2f895e945b40__00-ad07d9f5.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-180168649-1783120ddcb2__00-4c90ffad.jpg",
+      "second": "train\\keyboard\\keyboard-commons-180168650-6515b91f906b__00-e8bfad14.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824718-d8368ae6ca75__00-e7166085.png",
+      "second": "train\\keyboard\\keyboard-commons-97824714-6479539635d5__00-7fe3417a.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "train\\keyboard\\keyboard-commons-133146649-75283ceab161__00-954a6847.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "train\\keyboard\\keyboard-commons-133146646-64a0f77ea9b6__00-81f03426.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824708-ca5693577e2b__00-5ae0ad71.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186795-efa84c1bacc2__00-89070b46.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186684-2dd12c607e75__00-40371563.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106187554-00f4938cb2b8__00-c48038fc.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824709-f82335670a99__00-3c81ec9c.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186667-20017afb8d56__00-ee44fd12.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186639-5ef08ab00eff__00-e305a218.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186785-8a6020aa90e4__00-662be825.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186587-d051ca9164d1__00-183d5ee4.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186801-cdc418375405__00-681fda87.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186778-25f3b85906c9__00-f9b9e528.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186711-befa618981c3__00-b0ad437f.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "train\\keyboard\\keyboard-commons-106186406-a6bf182b633b__00-2d8c38e1.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "train\\keyboard\\keyboard-commons-133146647-da6cced6c971__00-e8883a61.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824718-d8368ae6ca75__00-e7166085.png",
+      "second": "val\\keyboard\\keyboard-commons-97824715-17b8017b7092__00-ae7a5877.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "val\\keyboard\\keyboard-commons-95918463-bcf3bf35eb5c__00-defabac9.jpg",
+      "second": "test\\keyboard\\keyboard-commons-95918462-f3dbc871aeaa__00-de02df1d.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-2351110-6c299a191cc8__00-8329d212.jpg",
+      "second": "train\\mouse\\mouse-commons-2355460-fcd59bef2708__00-17771456.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-109356648-e78da7759601__00-6b470a60.jpg",
+      "second": "train\\mouse\\mouse-commons-91019919-478f5c427d1e__00-329d5008.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-728737-af4018d56e37__00-ce7e3ea9.jpg",
+      "second": "val\\mouse\\mouse-commons-24925484-43f001aa3d22__00-57fb733c.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\mug\\mug-commons-133628044-8c030d7effd4__00-06065885.jpg",
+      "second": "train\\mug\\mug-commons-133628041-2a24eedac4fb__00-026cad91.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\mug\\mug-commons-65582835-be2ed9ae44b9__00-e6969d04.jpg",
+      "second": "test\\mug\\mug-commons-65582714-1d4697228bd7__00-1c47a05c.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398514-e7b7429b6440__00-6955e88b.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398472-8bb331766aca__00-3136eb21.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398454-cbc859c93a70__00-39eb6583.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398480-8b918b14800e__00-cd2de4bb.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398461-d131b45cb77e__00-282d0aa9.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-36127535-4e6346498fc5__00-1588c1de.jpg",
+      "second": "test\\notebook\\notebook-commons-36127515-b86369cf300a__00-5bf4f7eb.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-128274146-811ab86127df__00-12a2f8c9.png",
+      "second": "train\\phone\\phone-commons-128274162-30a924778278__00-634d3438.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-128274146-811ab86127df__00-12a2f8c9.png",
+      "second": "train\\phone\\phone-commons-128274152-4357bd881e6b__00-4f447ea8.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-128274146-811ab86127df__00-12a2f8c9.png",
+      "second": "train\\phone\\phone-commons-128274149-7fea3f6aa05c__00-a4450f86.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-187499403-285bebaabc1d__00-53afa86c.jpg",
+      "second": "train\\phone\\phone-commons-187499407-cf16f3b21e25__00-c688ebc2.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-128274146-811ab86127df__00-12a2f8c9.png",
+      "second": "train\\phone\\phone-commons-128274159-281c90f5f344__00-eeb79d98.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-21956205-1330db638cfe__00-b074a6a9.jpg",
+      "second": "train\\phone\\phone-commons-22062731-21005aa0bbbb__00-b04d7f67.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-128274146-811ab86127df__00-12a2f8c9.png",
+      "second": "val\\phone\\phone-commons-128274154-21a9bada42c7__00-87475f02.png",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\phone\\phone-commons-187499403-285bebaabc1d__00-53afa86c.jpg",
+      "second": "test\\phone\\phone-commons-187499400-67f3d2f80a8c__00-0bd3239b.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\stapler\\stapler-commons-8141312-8bff87809e96__00-cb9ca74b.jpg",
+      "second": "train\\stapler\\stapler-commons-8141292-9080b1c6bc8a__00-55fba892.jpg",
+      "evidence": "cluster_id"
+    },
+    {
+      "first": "train\\book\\book-commons-7442183-0fc77941377f__00-fab10459.png",
+      "second": "test\\book\\book-commons-237774-948d4ed0cf83__00-e41f3820.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186406-a6bf182b633b__00-2d8c38e1.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186406-a6bf182b633b__00-2d8c38e1.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186587-d051ca9164d1__00-183d5ee4.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186587-d051ca9164d1__00-183d5ee4.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186616-cd965fc25aa0__00-76d8c3d0.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186616-cd965fc25aa0__00-76d8c3d0.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186639-5ef08ab00eff__00-e305a218.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186684-2dd12c607e75__00-40371563.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186711-befa618981c3__00-b0ad437f.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186741-c718e4022bb8__00-8bb589f5.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186741-c718e4022bb8__00-8bb589f5.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186785-8a6020aa90e4__00-662be825.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186795-efa84c1bacc2__00-89070b46.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186801-cdc418375405__00-681fda87.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106187482-a788dbfaa178__00-f25ccf03.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106187589-cdbca364db73__00-72c838e8.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-132019801-27e273008142__00-597f0176.png",
+      "second": "val\\keyboard\\keyboard-commons-132019802-f5775d095968__00-1b00c5a8.png",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146642-644e81467a86__00-41ef2161.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146564-16516b82d1a3__00-ffe17c4d.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146646-64a0f77ea9b6__00-81f03426.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146646-64a0f77ea9b6__00-81f03426.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146647-da6cced6c971__00-e8883a61.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146649-75283ceab161__00-954a6847.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-149796056-aaf112bd0a0c__00-d66c858a.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-149796056-aaf112bd0a0c__00-d66c858a.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824714-6479539635d5__00-7fe3417a.png",
+      "second": "val\\keyboard\\keyboard-commons-97824715-17b8017b7092__00-ae7a5877.png",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824719-ea00a7b69785__00-e3eb9291.png",
+      "second": "val\\keyboard\\keyboard-commons-97824715-17b8017b7092__00-ae7a5877.png",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-728737-af4018d56e37__00-ce7e3ea9.jpg",
+      "second": "val\\mouse\\mouse-commons-24925484-43f001aa3d22__00-57fb733c.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\mug\\mug-commons-28272717-beba9812f130__00-61f7c771.jpg",
+      "second": "val\\mug\\mug-commons-28272807-0096a6c4fbb0__00-59425c9b.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-157884612-68e697096808__00-85b31986.jpg",
+      "second": "test\\notebook\\notebook-commons-157884608-21885bb6673f__00-5b42be6c.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\phone\\phone-commons-187499403-285bebaabc1d__00-53afa86c.jpg",
+      "second": "test\\phone\\phone-commons-187499400-67f3d2f80a8c__00-0bd3239b.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "val\\keyboard\\keyboard-commons-95918463-bcf3bf35eb5c__00-defabac9.jpg",
+      "second": "test\\keyboard\\keyboard-commons-95918462-f3dbc871aeaa__00-de02df1d.jpg",
+      "evidence": "Phase 1 unresolved pair"
+    },
+    {
+      "first": "train\\book\\book-commons-7442183-0fc77941377f__00-fab10459.png",
+      "second": "test\\book\\book-commons-237774-948d4ed0cf83__00-e41f3820.jpg",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186406-a6bf182b633b__00-2d8c38e1.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186406-a6bf182b633b__00-2d8c38e1.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186528-5c3cdbd2bdfc__00-7b294b28.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186587-d051ca9164d1__00-183d5ee4.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186587-d051ca9164d1__00-183d5ee4.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186616-cd965fc25aa0__00-76d8c3d0.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186616-cd965fc25aa0__00-76d8c3d0.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186639-5ef08ab00eff__00-e305a218.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186684-2dd12c607e75__00-40371563.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186711-befa618981c3__00-b0ad437f.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186741-c718e4022bb8__00-8bb589f5.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186741-c718e4022bb8__00-8bb589f5.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186464-d18f52565118__00-e8e19862.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186785-8a6020aa90e4__00-662be825.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186795-efa84c1bacc2__00-89070b46.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106186801-cdc418375405__00-681fda87.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106187482-a788dbfaa178__00-f25ccf03.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106187614-abd580e8b753__00-e2989342.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-106187589-cdbca364db73__00-72c838e8.jpg",
+      "second": "test\\keyboard\\keyboard-commons-106186383-f733fff8b896__00-89d02799.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-132019801-27e273008142__00-597f0176.png",
+      "second": "val\\keyboard\\keyboard-commons-132019802-f5775d095968__00-1b00c5a8.png",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146642-644e81467a86__00-41ef2161.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146564-16516b82d1a3__00-ffe17c4d.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146644-ff256356a99e__00-3823d408.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146646-64a0f77ea9b6__00-81f03426.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146646-64a0f77ea9b6__00-81f03426.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-133146649-75283ceab161__00-954a6847.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-149796056-aaf112bd0a0c__00-d66c858a.jpg",
+      "second": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-149796056-aaf112bd0a0c__00-d66c858a.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824714-6479539635d5__00-7fe3417a.png",
+      "second": "val\\keyboard\\keyboard-commons-97824715-17b8017b7092__00-ae7a5877.png",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824719-ea00a7b69785__00-e3eb9291.png",
+      "second": "val\\keyboard\\keyboard-commons-97824715-17b8017b7092__00-ae7a5877.png",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-728737-af4018d56e37__00-ce7e3ea9.jpg",
+      "second": "val\\mouse\\mouse-commons-24925484-43f001aa3d22__00-57fb733c.jpg",
+      "evidence": "Phase 1 machine evidence: CONFIRMED same scene (feature match)"
+    },
+    {
+      "first": "train\\mug\\mug-commons-28272717-beba9812f130__00-61f7c771.jpg",
+      "second": "val\\mug\\mug-commons-28272807-0096a6c4fbb0__00-59425c9b.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-157884612-68e697096808__00-85b31986.jpg",
+      "second": "test\\notebook\\notebook-commons-157884608-21885bb6673f__00-5b42be6c.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\phone\\phone-commons-187499403-285bebaabc1d__00-53afa86c.jpg",
+      "second": "test\\phone\\phone-commons-187499400-67f3d2f80a8c__00-0bd3239b.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "val\\keyboard\\keyboard-commons-133146648-80024592828b__00-be6e65fd.jpg",
+      "second": "test\\keyboard\\keyboard-commons-133146645-2f8e28b56791__00-d05de460.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "val\\keyboard\\keyboard-commons-95918463-bcf3bf35eb5c__00-defabac9.jpg",
+      "second": "test\\keyboard\\keyboard-commons-95918462-f3dbc871aeaa__00-de02df1d.jpg",
+      "evidence": "Phase 1 machine evidence: LIKELY near-duplicate"
+    },
+    {
+      "first": "train\\book\\book-commons-42174873-df503ce94a45__00-ee558dee.jpg",
+      "second": "train\\book\\book-commons-42174891-dfd053f508f4__00-9df9ffa1.jpg",
+      "evidence": "direct: pHash=6 dHash=6 SSIM=0.6124"
+    },
+    {
+      "first": "train\\book\\book-commons-295698-829db3240627__00-38db98aa.jpg",
+      "second": "train\\book\\book-commons-8741156-36349823aa40__00-bd7e69fd.jpg",
+      "evidence": "direct: pHash=0 dHash=0 SSIM=0.9971"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-132019801-27e273008142__00-597f0176.png",
+      "second": "val\\keyboard\\keyboard-commons-132019802-f5775d095968__00-1b00c5a8.png",
+      "evidence": "direct: pHash=8 dHash=3 SSIM=0.9869"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824716-2f895e945b40__00-ad07d9f5.png",
+      "evidence": "direct: pHash=4 dHash=9 SSIM=0.9903"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824708-ca5693577e2b__00-5ae0ad71.png",
+      "evidence": "direct: pHash=2 dHash=7 SSIM=0.9893"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824707-c43c03e9f871__00-279a0ace.png",
+      "second": "train\\keyboard\\keyboard-commons-97824709-f82335670a99__00-3c81ec9c.png",
+      "evidence": "direct: pHash=2 dHash=5 SSIM=0.9918"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824716-2f895e945b40__00-ad07d9f5.png",
+      "second": "train\\keyboard\\keyboard-commons-97824708-ca5693577e2b__00-5ae0ad71.png",
+      "evidence": "direct: pHash=4 dHash=8 SSIM=0.9886"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824716-2f895e945b40__00-ad07d9f5.png",
+      "second": "train\\keyboard\\keyboard-commons-97824709-f82335670a99__00-3c81ec9c.png",
+      "evidence": "direct: pHash=4 dHash=6 SSIM=0.9888"
+    },
+    {
+      "first": "train\\keyboard\\keyboard-commons-97824708-ca5693577e2b__00-5ae0ad71.png",
+      "second": "train\\keyboard\\keyboard-commons-97824709-f82335670a99__00-3c81ec9c.png",
+      "evidence": "direct: pHash=0 dHash=6 SSIM=0.9935"
+    },
+    {
+      "first": "train\\mouse\\mouse-commons-109356648-e78da7759601__00-6b470a60.jpg",
+      "second": "train\\mouse\\mouse-commons-91019919-478f5c427d1e__00-329d5008.jpg",
+      "evidence": "direct: pHash=2 dHash=1 SSIM=0.9947"
+    },
+    {
+      "first": "train\\mug\\mug-commons-133628044-8c030d7effd4__00-06065885.jpg",
+      "second": "train\\mug\\mug-commons-133628041-2a24eedac4fb__00-026cad91.jpg",
+      "evidence": "direct: pHash=2 dHash=1 SSIM=0.9892"
+    },
+    {
+      "first": "train\\notebook\\notebook-commons-72398511-1fd6b8cdee92__00-d37c632d.jpg",
+      "second": "train\\notebook\\notebook-commons-72398514-e7b7429b6440__00-6955e88b.jpg",
+      "evidence": "direct: pHash=8 dHash=1 SSIM=0.9044"
+    },
+    {
+      "first": "train\\phone\\phone-commons-21956205-1330db638cfe__00-b074a6a9.jpg",
+      "second": "train\\phone\\phone-commons-22062731-21005aa0bbbb__00-b04d7f67.jpg",
+      "evidence": "direct: pHash=0 dHash=0 SSIM=0.8605"
+    },
+    {
+      "first": "train\\stapler\\stapler-commons-8141312-8bff87809e96__00-cb9ca74b.jpg",
+      "second": "train\\stapler\\stapler-commons-8141292-9080b1c6bc8a__00-55fba892.jpg",
+      "evidence": "direct: pHash=5 dHash=6 SSIM=0.6276"
+    }
+  ],
+  "suspected_groups_retained": 13,
+  "manually_confirmed_groups": 0,
+  "retained": 1416,
+  "excluded_incorrect": 42,
+  "held_out_uncertain": 4,
+  "held_out_unreviewed_label": 246,
+  "retained_reviewed_correct": 0,
+  "retained_unflagged": 1416,
+  "train": 1132,
+  "val": 284,
+  "class_counts_retained": {
+    "bin": 153,
+    "book": 147,
+    "bottle": 116,
+    "chair": 163,
+    "keyboard": 134,
+    "mouse": 144,
+    "mug": 145,
+    "notebook": 145,
+    "phone": 126,
+    "stapler": 143
+  },
+  "class_counts_train": {
+    "bin": 122,
+    "book": 117,
+    "bottle": 93,
+    "chair": 130,
+    "keyboard": 108,
+    "mouse": 115,
+    "mug": 116,
+    "notebook": 116,
+    "phone": 100,
+    "stapler": 115
+  },
+  "class_counts_val": {
+    "bin": 31,
+    "book": 30,
+    "bottle": 23,
+    "chair": 33,
+    "keyboard": 26,
+    "mouse": 29,
+    "mug": 29,
+    "notebook": 29,
+    "phone": 26,
+    "stapler": 28
+  },
+  "class_table": {
+    "bin": {
+      "retained": 153,
+      "train": 122,
+      "val": 31,
+      "excluded_incorrect": 0,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 16
+    },
+    "book": {
+      "retained": 147,
+      "train": 117,
+      "val": 30,
+      "excluded_incorrect": 0,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 25
+    },
+    "bottle": {
+      "retained": 116,
+      "train": 93,
+      "val": 23,
+      "excluded_incorrect": 3,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 58
+    },
+    "chair": {
+      "retained": 163,
+      "train": 130,
+      "val": 33,
+      "excluded_incorrect": 0,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 7
+    },
+    "keyboard": {
+      "retained": 134,
+      "train": 108,
+      "val": 26,
+      "excluded_incorrect": 0,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 41
+    },
+    "mouse": {
+      "retained": 144,
+      "train": 115,
+      "val": 29,
+      "excluded_incorrect": 3,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 20
+    },
+    "mug": {
+      "retained": 145,
+      "train": 116,
+      "val": 29,
+      "excluded_incorrect": 0,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 25
+    },
+    "notebook": {
+      "retained": 145,
+      "train": 116,
+      "val": 29,
+      "excluded_incorrect": 17,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 12
+    },
+    "phone": {
+      "retained": 126,
+      "train": 100,
+      "val": 26,
+      "excluded_incorrect": 13,
+      "held_out_uncertain": 4,
+      "held_out_unreviewed_label": 34
+    },
+    "stapler": {
+      "retained": 143,
+      "train": 115,
+      "val": 28,
+      "excluded_incorrect": 6,
+      "held_out_uncertain": 0,
+      "held_out_unreviewed_label": 8
+    }
+  },
+  "review": {
+    "label_decisions": 49,
+    "pair_decisions": 0,
+    "label_counts": {
+      "Incorrect": 42,
+      "Correct": 3,
+      "Uncertain": 4
+    },
+    "pair_counts": {},
+    "high_total": 49,
+    "high_decided": 49,
+    "high_missing": 0,
+    "label_missing": 246,
+    "pair_missing": 36,
+    "source_followup": 13
+  },
+  "clusters": {
+    "n_clusters": 23,
+    "n_images_in_clusters": 82,
+    "n_cross_split_clusters": 10,
+    "n_images_in_cross_split_clusters": 50,
+    "n_clusters_with_retained_members": 11,
+    "n_groups_crossing_new_splits": 0
+  },
+  "duplicate_hashes_retained": [],
+  "manifest_hash_mismatches": 6,
+  "manifest_hash_mismatch_paths": [
+    "train\\bin\\bin-commons-149396235-c9256df9e313__00-b3154716.jpg",
+    "train\\mug\\mug-commons-188825680-96b146d4619e__00-27c01704.jpg",
+    "train\\mug\\mug-commons-188825682-d1434b4c1485__00-d16877ab.jpg",
+    "val\\mug\\mug-commons-132734517-1bbced4cc3f8__00-09907d45.jpg",
+    "train\\stapler\\stapler-commons-37333769-d164061814c8__00-21734da4.jpg",
+    "val\\stapler\\stapler-commons-37333768-18445efeeca4__00-342629d1.jpg"
+  ],
+  "groups_crossing": [],
+  "all_classes_in_train_and_val": true,
+  "source_followup": {
+    "total": 13,
+    "retained": 8,
+    "held_out_or_excluded": 5
+  },
+  "licensing_retained": {
+    "missing_artist": 87,
+    "missing_credit": 6,
+    "missing_license_url": 279,
+    "missing_license_url_attribution": 2,
+    "nonstandard_license": 10,
+    "rows_with_any_issue": 97
+  },
+  "review_conflicts": 3,
+  "review_conflict_rows": [
+    {
+      "path": "train\\mouse\\mouse-commons-2355460-fcd59bef2708__00-17771456.jpg",
+      "class": "mouse",
+      "title": "File:Mouse spider scale.jpg",
+      "reason": "Phase 1 evidence: Label check (HIGH): animal (mouse spider), not a computer mouse [matched: \\bspider\\b]"
+    },
+    {
+      "path": "test\\mouse\\mouse-commons-3795004-a92580457d46__00-cf327a47.png",
+      "class": "mouse",
+      "title": "File:Gnome-dev-mouse-optical.png",
+      "reason": "Phase 1 evidence: Label check (HIGH): software icon, not a physical mouse [matched: \\bicon\\b|gnome]"
+    },
+    {
+      "path": "train\\mug\\mug-commons-133406326-32715d1cb376__00-f5a8c16a.jpg",
+      "class": "mug",
+      "title": "File:Mug Shot.jpg",
+      "reason": "Phase 1 evidence: Label check (HIGH): mug shot, not a drinking mug [matched: mug ?shot|mugshot]"
+    }
+  ],
+  "cluster_rows": [
+    {
+      "cluster_id": "1",
+      "n_images": 20,
+      "classes": "keyboard",
+      "source_splits": "test|train",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 20,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "2",
+      "n_images": 7,
+      "classes": "keyboard",
+      "source_splits": "test|train|val",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 7,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "3",
+      "n_images": 6,
+      "classes": "notebook",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 6,
+      "train": 0,
+      "val": 6,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "val"
+    },
+    {
+      "cluster_id": "4",
+      "n_images": 6,
+      "classes": "phone",
+      "source_splits": "train|val",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 6,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "5",
+      "n_images": 4,
+      "classes": "keyboard",
+      "source_splits": "train|val",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 4,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "6",
+      "n_images": 4,
+      "classes": "keyboard",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 4,
+      "train": 4,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "7",
+      "n_images": 3,
+      "classes": "phone",
+      "source_splits": "test|train",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 3,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "8",
+      "n_images": 2,
+      "classes": "book",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "9",
+      "n_images": 2,
+      "classes": "book",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "10",
+      "n_images": 2,
+      "classes": "book",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "11",
+      "n_images": 2,
+      "classes": "book",
+      "source_splits": "test|train",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "12",
+      "n_images": 2,
+      "classes": "book",
+      "source_splits": "test",
+      "cross_split": false,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "13",
+      "n_images": 2,
+      "classes": "keyboard",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "14",
+      "n_images": 2,
+      "classes": "keyboard",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "15",
+      "n_images": 2,
+      "classes": "keyboard",
+      "source_splits": "test|val",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "16",
+      "n_images": 2,
+      "classes": "mouse",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "17",
+      "n_images": 2,
+      "classes": "mouse",
+      "source_splits": "train|val",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "18",
+      "n_images": 2,
+      "classes": "mouse",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 1,
+      "excluded": 1,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "19",
+      "n_images": 2,
+      "classes": "mug",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 0,
+      "val": 2,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "val"
+    },
+    {
+      "cluster_id": "20",
+      "n_images": 2,
+      "classes": "mug",
+      "source_splits": "test|train",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "21",
+      "n_images": 2,
+      "classes": "notebook",
+      "source_splits": "test|train",
+      "cross_split": true,
+      "retained": 0,
+      "train": 0,
+      "val": 0,
+      "held_out": 2,
+      "excluded": 0,
+      "new_splits": ""
+    },
+    {
+      "cluster_id": "22",
+      "n_images": 2,
+      "classes": "phone",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    },
+    {
+      "cluster_id": "23",
+      "n_images": 2,
+      "classes": "stapler",
+      "source_splits": "train",
+      "cross_split": false,
+      "retained": 2,
+      "train": 2,
+      "val": 0,
+      "held_out": 0,
+      "excluded": 0,
+      "new_splits": "train"
+    }
+  ],
+  "source_followup_rows": [
+    {
+      "path": "train\\bin\\bin-commons-113882-678cc6586474__00-f5a2bd24.jpg",
+      "class": "bin",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\book\\book-commons-372996-c3c0f8190091__00-e57afec2.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "test\\book\\book-commons-237774-948d4ed0cf83__00-e41f3820.jpg",
+      "class": "book",
+      "status": "held_out_unreviewed_label",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "test\\book\\book-commons-789106-5c430b305a49__00-62e6e72c.jpg",
+      "class": "book",
+      "status": "held_out_original_test",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-900669-212c06d619fe__00-a5b17514.jpg",
+      "class": "bottle",
+      "status": "held_out_unreviewed_label",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-519160-e80aa741d3c5__00-928f4d30.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\chair\\chair-commons-61844498-577dffbdcb6c__00-342d0740.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "issue": "attribution licence has no URL"
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-1431504-6e007904afa3__00-148960ac.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\mouse\\mouse-commons-15794-2d7d446c2df9__00-ee723f66.jpg",
+      "class": "mouse",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\mouse\\mouse-commons-230090-e18d8c89e8dd__00-753e539d.png",
+      "class": "mouse",
+      "status": "held_out_unreviewed_label",
+      "issue": "missing artist and credit; attribution licence has no URL"
+    },
+    {
+      "path": "test\\mouse\\mouse-commons-178528-1266742c53c2__00-0e7068f2.jpg",
+      "class": "mouse",
+      "status": "held_out_original_test",
+      "issue": "missing artist and credit"
+    },
+    {
+      "path": "val\\mug\\mug-commons-61638708-207e51ce0805__00-8581530e.jpg",
+      "class": "mug",
+      "status": "retained_unflagged",
+      "issue": "attribution licence has no URL"
+    },
+    {
+      "path": "train\\phone\\phone-commons-136081-209939369854__00-5fd9372a.jpg",
+      "class": "phone",
+      "status": "retained_unflagged",
+      "issue": "missing artist and credit"
+    }
+  ],
+  "licensing_issue_rows": [
+    {
+      "path": "train\\bin\\bin-commons-113882-678cc6586474__00-f5a2bd24.jpg",
+      "class": "bin",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_family": "CC BY-SA",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\book\\book-commons-83319413-907cd8236a2f__00-5cb25f99.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-372996-c3c0f8190091__00-e57afec2.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "Public domain",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\book\\book-commons-65363355-608acd5c8bce__00-bb1cee2a.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-65363352-ed520689dc34__00-6abd8691.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-83319411-7f4d3375eb73__00-8f8bc42e.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-65361683-08ba0d450376__00-9622da40.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-65361698-4b9fab299532__00-f7395361.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\book\\book-commons-83319408-ea1aa452b85a__00-8f659ace.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\book\\book-commons-65361703-3490665120e3__00-29eee0e4.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\book\\book-commons-65361680-7e5bf15ee170__00-9a66cb5f.jpg",
+      "class": "book",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "API data Catalogue record Photo",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-36200691-85c05aefc73a__00-cda8b719.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/31/2e/23df9e64d3454771e795706a2381.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0057365.html Wellcome Collection gallery (2018-03-24): https://wellcomecollection.org/works/mhngdx72 CC-BY-4.0",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-519160-e80aa741d3c5__00-928f4d30.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "Public domain",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-58716961-cf6dacdc9c95__00-63b90c87.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-36201883-954f109f14f0__00-5a874622.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/47/df/09e748234e62377e8b02b5dd82b0.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0057444.html Wellcome Collection gallery (2018-03-24): https://wellcomecollection.org/works/m4fmrs2k CC-BY-4.0",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-58716962-b91167649c2d__00-a32b1090.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-6031004-a388eff24ccb__00-e1be3925.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "The original uploader was BuBZ at English Wikipedia .",
+      "credit": "Transferred from en.wikipedia to Commons by JohnnyMrNinja using CommonsHelper .",
+      "license": "GFDL 1.2",
+      "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "license_family": "GFDL",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\bottle\\bottle-commons-36197859-dce243af67c3__00-08e65c11.jpg",
+      "class": "bottle",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/71/10/c5c02aa6aa02165a34b3457004fd.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0057065.html Wellcome Collection gallery (2018-03-24): https://wellcomecollection.org/works/zuz854me CC-BY-4.0",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938707-e758939b655b__00-de214c00.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60174881-cc562ed073b0__00-93980105.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938679-966039c49138__00-67e02556.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155627-fae5807a6c04__00-f90d8ac2.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938737-bbf0763c9e10__00-fb1068ea.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155684-a8bf3c030205__00-2354f404.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938712-80991205b875__00-92f759bf.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60175364-02918d4d8677__00-b12b345e.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938688-c55a4fe99db5__00-b9fb8260.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60174877-b8a1ca5020d4__00-83d50822.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155622-d48156e5b8fc__00-2ba89854.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-152805940-657318017399__00-2bc214f7.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://usace.contentdm.oclc.org/digital/collection/p15141coll5/id/699",
+      "license": "Public domain",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938727-7dacc4c142a5__00-1262039a.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938624-448180221aeb__00-58a7f16d.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60174906-cee6b3e400b5__00-bd173357.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938724-d9776e42b5cf__00-0e44a9f9.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938695-4d53287bbf8c__00-b97696dd.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61844498-577dffbdcb6c__00-342d0740.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "Unknown author Unknown author",
+      "credit": "Missouri History Museum URL: http://images.mohistory.org/image/0971143F-BC6A-DF1B-B945-BE983BF8CF13/original.jpg Gallery: http://collections.mohistory.org/resource/83660",
+      "license": "Attribution",
+      "license_url": "",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": true,
+      "nonstandard_license": true,
+      "source_followup_issue": "attribution licence has no URL"
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938640-46f5c08f0839__00-d996ad7b.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938676-a1e2e85f13d8__00-c212b646.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938636-d6b6195a33c4__00-34d39183.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938681-ed9e02006b08__00-5c87ff64.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60175349-c5e9fa40c1fc__00-9dd444e1.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155670-c7ba704a80c4__00-1fa68d09.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938661-2c3a8e92baae__00-7d992d92.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938617-f424368abe55__00-27deb446.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938704-f245fef226b7__00-c56decdb.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155633-9fde71cb628f__00-0329da2d.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938659-262944396f4e__00-1190fc17.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938715-29a5ee52bb7b__00-7a6a296a.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938652-1e8efd8d0f2a__00-e3441832.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938684-62de362bad68__00-f45537f5.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938620-4ae6d8cea636__00-b0fbd2b7.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-61155628-543663d8d2ec__00-4d94d32e.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938692-450408fb9c82__00-f61672c1.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938655-21d61c815852__00-0d4e079d.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60183649-b768f815c85a__00-dedbf2f5.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-157938710-d25d2ab0e1fd__00-a3c2bbc4.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\chair\\chair-commons-60183628-5bb522224c9b__00-9bba6dc5.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-61155682-5a36862ec565__00-cc387bac.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-61155674-5e148e0f3ee4__00-6e95966d.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938699-8eb815b60506__00-e18939fa.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938705-ac003f5434ee__00-600ef660.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938647-da063b95384d__00-2cd7e7d4.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938717-c85192323330__00-5914e813.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938642-45bec0c04722__00-3bf8a82f.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-157938628-efd30106ee34__00-003fd4b2.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 713985f10aa9df1993795ebe86e7cba9 Missouri Historical Society identifier: 1977-114-0001",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\chair\\chair-commons-60183645-13948334962d__00-48fd5b7c.jpg",
+      "class": "chair",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-36718648-acd6cfa84571__00-8772e998.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "Chief Photographer",
+      "credit": "Photo https://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: https://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45158109.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-28837176-02073f30e71d__00-782e4055.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "MoD",
+      "credit": "Photo https://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: https://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45155531.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-36718611-9ae28cb17176__00-cca2687b.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "Chief Photographer",
+      "credit": "Photo http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45158105.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-36718655-b37fe3a8b9a2__00-f224765e.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "Chief Photographer",
+      "credit": "Photo http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45158110.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\keyboard\\keyboard-commons-1431504-6e007904afa3__00-148960ac.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_family": "CC BY-SA",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    },
+    {
+      "path": "val\\keyboard\\keyboard-commons-36718616-5237feda0dfa__00-0bb7ccca.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "Chief Photographer",
+      "credit": "Photo http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45158106.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\keyboard\\keyboard-commons-36718660-4bdd8dbd9493__00-badcabde.jpg",
+      "class": "keyboard",
+      "status": "retained_unflagged",
+      "creator": "Chief Photographer",
+      "credit": "Photo http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg Metadata source: http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&MetaData=1&Search=45158111.jpg",
+      "license": "OGL v1.0",
+      "license_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\mouse\\mouse-commons-15794-2d7d446c2df9__00-ee723f66.jpg",
+      "class": "mouse",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_family": "CC BY-SA",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    },
+    {
+      "path": "train\\mug\\mug-commons-158167377-5354709e2f67__00-d90b62e0.jpg",
+      "class": "mug",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: d1c0272ad926797c4dc2a5d52c881947 Missouri Historical Society identifier: 1989-013-0002",
+      "license": "Public domain",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\mug\\mug-commons-61638708-207e51ce0805__00-8581530e.jpg",
+      "class": "mug",
+      "status": "retained_unflagged",
+      "creator": "Unknown author Unknown author",
+      "credit": "Missouri History Museum URL: http://images.mohistory.org/image/640D08B1-A554-572D-FCCD-0AB05C1E7DA8/original.jpg Gallery: http://collections.mohistory.org/resource/97850",
+      "license": "Attribution",
+      "license_url": "",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": true,
+      "nonstandard_license": true,
+      "source_followup_issue": "attribution licence has no URL"
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127491-155573012e08__00-659a6d67.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/32/31/badfceefbbed3881fac0b3b8251e.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048448.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-157884615-6c4a8e8aa8cc__00-42c5a51e.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 445cdea0eb7306d3abdaa5dcae36ce0f Missouri Historical Society identifier: 1927-053-0545",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-157884612-68e697096808__00-85b31986.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 445cdea0eb7306d3abdaa5dcae36ce0f Missouri Historical Society identifier: 1927-053-0545",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-157884602-405af1868b56__00-6ee8ec20.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 445cdea0eb7306d3abdaa5dcae36ce0f Missouri Historical Society identifier: 1927-053-0545",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127552-02e2302227f9__00-bb30d99b.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/db/76/898fcaff01f822cf4975c6a13909.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048456.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127539-e300c69b3657__00-86276d2c.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/4a/cc/c74dd32da820d6d74c0869d8c3b3.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048453.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36108620-7ebd01e7e71e__00-62905149.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/10/cd/29f2bfb103b1d6851301e1a237fc.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0043479.html Wellcome Collection gallery (2018-03-22): https://wellcomecollection.org/works/yj2tzxt6 CC-BY-4.0",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127414-46a03d919046__00-2aa8f9f6.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/88/f6/d707ff8c8bc3f85481cbce112b78.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048441.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127506-a9c4f32ce4d9__00-bc12a620.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/0e/ce/af302c77aabe4f3eaaba24406910.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048449.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127484-45004edfe86e__00-815d3d6a.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/70/5e/2c469233751fd5d3900f6fb660aa.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048447.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36127548-a1bcea1a71af__00-f3d49d02.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/c3/12/57be2f9ad3a7730a7ed7510025dc.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048455.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-157884599-11c95221ffa9__00-86f5fbb5.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Heartland Hub . Record in source catalog DPLA identifier: 445cdea0eb7306d3abdaa5dcae36ce0f Missouri Historical Society identifier: 1927-053-0545",
+      "license": "No restrictions",
+      "license_url": "",
+      "license_family": "public domain / CC0",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\notebook\\notebook-commons-36003526-3921ee9f828b__00-d7d87b45.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/34/48/0933717a0d83f931079bcff1a2d1.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0024793.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127437-0d7d7b7cb183__00-57f9c717.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/c1/05/db4ddf6fd09bb76ea2766d20c535.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048445.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127419-1d66a8d5cdf7__00-b98f93db.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/3e/b4/d6808c648c59a3495283ec5e5941.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048442.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127543-12e56ecf8c4f__00-8b84fa5f.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/1e/c1/cf6384cf5a080bc1aea554f28a88.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048454.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127528-00e6a8aacc04__00-2840c9a1.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/43/b5/12fad51e8cdb54a86ed2d0eca168.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048451.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127448-8e74c3e4015e__00-301ddb51.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/3e/bf/3bff7215d914ce91662cafc58371.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048446.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "val\\notebook\\notebook-commons-36127433-33651e54907c__00-1f78ac01.jpg",
+      "class": "notebook",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/f9/04/d5a0b84e2ccb48741ea4151c43e7.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0048444.html",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_family": "CC BY",
+      "missing_artist": true,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\phone\\phone-commons-53933650-b7a61b3fb997__00-48f6a45f.jpg",
+      "class": "phone",
+      "status": "retained_unflagged",
+      "creator": "smial",
+      "credit": "Own work",
+      "license": "FAL",
+      "license_url": "http://artlibre.org/licence/lal/en",
+      "license_family": "other",
+      "missing_artist": false,
+      "missing_credit": false,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": true,
+      "source_followup_issue": ""
+    },
+    {
+      "path": "train\\phone\\phone-commons-136081-209939369854__00-5fd9372a.jpg",
+      "class": "phone",
+      "status": "retained_unflagged",
+      "creator": "",
+      "credit": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_family": "CC BY-SA",
+      "missing_artist": true,
+      "missing_credit": true,
+      "missing_license_url_attribution": false,
+      "nonstandard_license": false,
+      "source_followup_issue": "missing artist and credit"
+    }
+  ]
+}

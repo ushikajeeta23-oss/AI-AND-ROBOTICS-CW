@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+         bin       0.88      0.74      0.81        31
+        book       0.70      0.77      0.73        30
+      bottle       0.85      0.74      0.79        23
+       chair       0.90      0.82      0.86        33
+    keyboard       0.85      0.88      0.87        26
+       mouse       0.84      0.72      0.78        29
+         mug       0.83      1.00      0.91        29
+    notebook       0.71      0.86      0.78        29
+       phone       0.67      0.62      0.64        26
+     stapler       0.83      0.86      0.84        28
+
+    accuracy                           0.80       284
+   macro avg       0.81      0.80      0.80       284
+weighted avg       0.81      0.80      0.80       284

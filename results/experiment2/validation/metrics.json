@@ -1,0 +1,228 @@
+{
+  "split": "val",
+  "n_images": 284,
+  "model": "models\\experiment2\\officemate_yolov8n_cls.pt",
+  "review_threshold": 0.8,
+  "review_count": 76,
+  "review_rate": 0.2676056338028169,
+  "accepted_accuracy": 0.9134615384615384,
+  "mean_processing_ms_including_image_load": 45.721551404223106,
+  "target_test_accuracy": 0.9,
+  "target_met": false,
+  "target_accuracy_and_macro_f1": 0.9,
+  "target_met_on_this_split": false,
+  "confidence_min": 0.229103,
+  "confidence_mean": 0.8617727464788735,
+  "confidence_max": 0.999998,
+  "accuracy": 0.8028169014084507,
+  "macro_f1": 0.8000324374817399,
+  "class_order": [
+    "bin",
+    "book",
+    "bottle",
+    "chair",
+    "keyboard",
+    "mouse",
+    "mug",
+    "notebook",
+    "phone",
+    "stapler"
+  ],
+  "confusion_matrix": [
+    [
+      23,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      17,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      27,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      1,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      21,
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      25,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      2,
+      0,
+      1,
+      1,
+      0,
+      1,
+      16,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      24
+    ]
+  ],
+  "per_class": {
+    "bin": {
+      "precision": 0.8846153846153846,
+      "recall": 0.7419354838709677,
+      "f1-score": 0.8070175438596491,
+      "support": 31.0
+    },
+    "book": {
+      "precision": 0.696969696969697,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7301587301587301,
+      "support": 30.0
+    },
+    "bottle": {
+      "precision": 0.85,
+      "recall": 0.7391304347826086,
+      "f1-score": 0.7906976744186046,
+      "support": 23.0
+    },
+    "chair": {
+      "precision": 0.9,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.8571428571428571,
+      "support": 33.0
+    },
+    "keyboard": {
+      "precision": 0.8518518518518519,
+      "recall": 0.8846153846153846,
+      "f1-score": 0.8679245283018868,
+      "support": 26.0
+    },
+    "mouse": {
+      "precision": 0.84,
+      "recall": 0.7241379310344828,
+      "f1-score": 0.7777777777777778,
+      "support": 29.0
+    },
+    "mug": {
+      "precision": 0.8285714285714286,
+      "recall": 1.0,
+      "f1-score": 0.90625,
+      "support": 29.0
+    },
+    "notebook": {
+      "precision": 0.7142857142857143,
+      "recall": 0.8620689655172413,
+      "f1-score": 0.78125,
+      "support": 29.0
+    },
+    "phone": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6153846153846154,
+      "f1-score": 0.64,
+      "support": 26.0
+    },
+    "stapler": {
+      "precision": 0.8275862068965517,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8421052631578947,
+      "support": 28.0
+    },
+    "accuracy": 0.8028169014084507,
+    "macro avg": {
+      "precision": 0.8060546949857296,
+      "recall": 0.8009264157196643,
+      "f1-score": 0.8000324374817399,
+      "support": 284.0
+    },
+    "weighted avg": {
+      "precision": 0.8075314093296124,
+      "recall": 0.8028169014084507,
+      "f1-score": 0.8016623493717566,
+      "support": 284.0
+    }
+  }
+}

@@ -1,0 +1,4 @@
+path,class,title,reason
+train\mouse\mouse-commons-2355460-fcd59bef2708__00-17771456.jpg,mouse,File:Mouse spider scale.jpg,"Phase 1 evidence: Label check (HIGH): animal (mouse spider), not a computer mouse [matched: \bspider\b]"
+test\mouse\mouse-commons-3795004-a92580457d46__00-cf327a47.png,mouse,File:Gnome-dev-mouse-optical.png,"Phase 1 evidence: Label check (HIGH): software icon, not a physical mouse [matched: \bicon\b|gnome]"
+train\mug\mug-commons-133406326-32715d1cb376__00-f5a8c16a.jpg,mug,File:Mug Shot.jpg,"Phase 1 evidence: Label check (HIGH): mug shot, not a drinking mug [matched: mug ?shot|mugshot]"
